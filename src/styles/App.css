@@ -1,0 +1,277 @@
+.icon-holder {
+    display: inline-block;
+}
+
+
+
+.cat-link-holder {
+    display: inline;
+    position: relative;
+    top: -16px
+}
+
+.cart-holder {
+    display: inline;
+    float: right;
+    margin: 5px;
+
+}
+
+.cart-list-length {
+    position: relative;
+    display: inline-block;
+    top: -27px;
+    right: 7px;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    border-radius: 6px;
+
+}
+
+.search-bar-holder {
+    display: inline;
+    position: relative;
+    top: -19px;
+    margin-left: 50px;
+}
+
+
+
+.gender-list>li {
+
+    list-style-type: none;
+}
+
+ol {
+    list-style-type: none;
+    display: inline;
+}
+
+ol>li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+
+.top-nav {
+    box-shadow: 1px 1px 2px rgb(160, 147, 147);
+    padding: 9px 9px 0 9px;
+    margin-bottom: 30px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.filter-holder {
+    width: 23%;
+    display: inline-block;
+    border: 2px black ridge;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.content-holder {
+    width: 73%;
+    margin: 0 5px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.close-box {
+    float: right;
+
+
+}
+
+#page-body {
+    display: flex;
+}
+
+.indiv-cat-text {
+    display: inline;
+}
+
+.indiv-tile-holder {
+    display: inline-block;
+    max-width: 300px;
+    margin: 10px 20px;
+    padding: 6px;
+    vertical-align: top;
+    box-shadow: 1px 1px 2px rgb(204, 201, 201);
+
+}
+
+
+.size-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 1.9em;
+    border: 1px black ridge;
+    display: inline-block;
+    margin: 5px;
+}
+
+.size-option:hover {
+    background-color: red;
+    color: white;
+}
+
+h4 {
+    margin: 0px;
+}
+
+#product-modal-wrapper {
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+
+#product-modal {
+
+    background-color: #fefefe;
+    margin: 5% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+    /* display: ; */
+}
+
+
+
+
+#cart-modal {
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+
+#cart-modal-content {
+
+    background-color: #fefefe;
+    margin: 5% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+    /* display: ; */
+}
+
+
+
+.other-image-wrapper {
+    width: 50%;
+    max-width: 500px;
+    display: inline-block;
+}
+
+.nav-line {
+    width: 50%;
+    display: inline-block;
+}
+
+#cart-product-section {
+    width: 50%;
+    display: inline-block;
+}
+
+#cart-total-section {
+    width: 50%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 400px) {
+
+    .nav-line {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .cat-link-holder {
+        top: -37px;
+    }
+
+    .filter-holder {
+        width: 80%;
+        margin: 10%;
+    }
+
+
+    #page-body {
+        display: inline;
+    }
+
+
+    .other-image-wrapper {
+        width: 96%;
+        margin: 0 2%;
+    }
+
+
+    .content-holder {
+        margin: auto;
+        display: block;
+    }
+
+    .indiv-img-holder>img {
+        width: 100%;
+    }
+
+    .indiv-tile-holder {
+        margin: 10px auto;
+        display: block;
+    }
+}
+
+
+#modal-meta-data {
+    display: inline-block;
+    vertical-align: top;
+
+}
